@@ -33,16 +33,11 @@ class MyApp extends StatelessWidget {
                   Radius.circular(12),
                 ),
               ),
-              child: Center(
-                child: ElevatedButton(
-                  style: const ButtonStyle(
-                      backgroundColor: MaterialStatePropertyAll(Colors.black)),
-                  onPressed: () {},
-                  child: const Text(
-                    'Button',
-                    style: TextStyle(
-                      color: Colors.white,
-                    ),
+              child: const Center(
+                child: Text(
+                  'Button',
+                  style: TextStyle(
+                    color: Colors.white,
                   ),
                 ),
               ),
